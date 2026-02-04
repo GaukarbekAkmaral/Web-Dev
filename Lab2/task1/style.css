@@ -1,0 +1,125 @@
+.left h1{
+    color:blue;
+    margin-bottom: 15px;
+    font-size:46px;
+}
+*{
+    box-sizing: border-box;
+}
+.left p{
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+html, body{
+    height:100%;
+}
+body{
+    background-color:aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    margin: 0;
+}
+.right a{
+    display:block;
+    text-align:center;
+    margin:10px ;
+}
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
+}
+.right{
+    background: white;
+    padding:20px;
+    width:330px;
+    border-radius:8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.right input{
+    width:100%;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.right button{
+    width:100%;
+    padding:10px;
+    color:white;
+    border:none;
+    font-size:16px;
+}
+#login{ 
+    background: #1877f2;
+}
+#signup{
+    background: #43bd2b;
+}
+.comment{
+    text-align:center;
+    font-size:12px;
+    margin-top:14px;
+}
+.footer {
+    width: 100%;
+    background: #fff;
+    margin-top: auto;
+    padding: 20px 0 28px;
+    font-size: 12px;
+    color: #8a8d91;
+}
+
+.footer-languages,
+.footer-links {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    padding: 0 20px;
+}
+
+.footer-languages {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 8px;
+}
+
+.footer a {
+    color: #8a8d91;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-languages span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 20px;
+    border: 1px solid #ccd0d5;
+    border-radius: 2px;
+    background: #f5f6f7;
+    color: #4b4f56;
+    font-size: 14px;
+}
+
+.footer-meta {
+    max-width: 980px;
+    margin: 10px auto 0;
+    padding: 0 20px;
+}
